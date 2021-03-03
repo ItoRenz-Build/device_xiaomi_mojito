@@ -176,3 +176,6 @@ ro.surface_flinger.set_touch_timer_ms=750
 # WiFi
 wifi.aware.interface=wifi-aware0
 
+# SoC
+ro.soc.manufacturer=QTI
+ro.soc.model=SM6150
