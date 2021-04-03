@@ -607,9 +607,6 @@ vendor/firmware/aw87xxx_vmax_0.bin
 vendor/firmware/aw87xxx_vmax_1.bin
 
 # FM
-system_ext/lib64/fm_helium.so
-system_ext/lib64/libfm-hci.so
--system_ext/lib64/vendor.qti.hardware.fm@1.0.so
 vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so
 vendor/lib64/vendor.qti.hardware.fm@1.0.so
 
