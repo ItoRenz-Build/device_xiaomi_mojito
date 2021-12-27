@@ -14,6 +14,9 @@ $(call inherit-product, device/xiaomi/mojito/device.mk)
 # Inherit some common Arrow stuff.
 $(call inherit-product, vendor/arrow/config/common.mk)
 
+# ArrowOS additions
+$(call inherit-product-if-exists, vendor/lawnchair/lawnchair.mk)
+
 # Boot Animation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
 
