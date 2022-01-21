@@ -324,7 +324,8 @@ TARGET_COMMON_QTI_COMPONENTS := \
     overlay \
     perf \
     telephony \
-    usb
+    usb \
+    vibrator
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/permissions/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml
@@ -386,13 +387,6 @@ PRODUCT_COPY_FILES += \
 # Vnd service manager
 PRODUCT_PACKAGES += \
     vndservicemanager
-
-# Vibrator
-PRODUCT_PACKAGES += \
-    vendor.qti.hardware.vibrator.service
-
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/excluded-input-devices.xml:$(TARGET_COPY_OUT_VENDOR)/etc/excluded-input-devices.xml
 
 # Vulkan
 PRODUCT_PACKAGES += \
