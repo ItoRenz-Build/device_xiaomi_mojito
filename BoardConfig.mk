@@ -148,7 +148,7 @@ BOARD_BUILD_SYSTEM_ROOT_IMAGE := false
 BOARD_FLASH_BLOCK_SIZE := 131072
 
 # Power
-TARGET_POWERHAL_MODE_EXT := $(DEVICE_PATH)/power/power-mode.cpp
+TARGET_POWER_FEATURE_EXT_LIB := //$(DEVICE_PATH):libpowerfeature_ext_mojito
 
 # Properties
 TARGET_PRODUCT_PROP += $(DEVICE_PATH)/product.prop
