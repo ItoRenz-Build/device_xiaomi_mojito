@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/awaken_mojito.mk
+    $(LOCAL_DIR)/arrow_mojito.mk
 
 COMMON_LUNCH_CHOICES := \
-    awaken_mojito-user \
-    awaken_mojito-userdebug \
-    awaken_mojito-eng
+    arrow_mojito-user \
+    arrow_mojito-userdebug \
+    arrow_mojito-eng
