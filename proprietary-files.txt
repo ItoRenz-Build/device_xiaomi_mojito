@@ -577,6 +577,9 @@ vendor/lib64/libssd.so
 vendor/lib64/libtzdrmgenprov.so
 vendor/lib64/vendor.qti.hardware.qseecom@1.0.so
 
+# DRM - from mata OPM1.170911.254
+vendor/lib64/libspl.so|0cf185c22519bbae1e1232928fda151f538f9977
+
 # DRM Widevine
 vendor/bin/hw/android.hardware.drm@1.3-service.widevine
 vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc
