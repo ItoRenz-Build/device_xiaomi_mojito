@@ -1,0 +1,1 @@
+allow charger proc_last_kmsg:file { read getattr };

@@ -1,2 +1,3 @@
 # please don't kill yourself unless it's allowed
 dontaudit linkerconfig self:capability kill;
+dontaudit { crash_dump iorapd} self:capability dac_read_search;
