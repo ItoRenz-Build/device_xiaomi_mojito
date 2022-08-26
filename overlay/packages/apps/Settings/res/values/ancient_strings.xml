@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="ancient_device_name_summary">Redmi Note 10</string>
+    <string name="ancient_chipset_type_summary">Snapdragon 678</string>
+    <string name="ancient_gpu_summary">Adreno 612</string>
+    <string name="ancient_camera_mp_summary">48 MP, f/1.8, PDAF</string>
+    <string name="ancient_screen_type_summary">Super Amoled 6.43 inch</string>
+    <string name="maintainer_name">Ridwan Adi Cahyono</string>
+
+</resources>
